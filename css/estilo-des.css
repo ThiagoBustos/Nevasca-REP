@@ -24,6 +24,7 @@
 }
 .alinhamento02{
     margin-left: 20px;
+    
 
 }
 .alinhamento02 ul{
@@ -31,6 +32,7 @@
 }
 
 .perfil{
+    margin-top: 14px;
     background-image: url(../img/draken.jpg);
     background-position-x: center;
     background-position-y: center;
