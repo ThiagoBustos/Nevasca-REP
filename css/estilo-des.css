@@ -1,8 +1,12 @@
+html,body{
+    background-color: #363636;
+}
 .box-branca{ /*Box branca ou seja a seção do site que fica os dados*/
-    width: 90%;
+    position: relative;
+    width: 80%;
     height: auto;
     background-color: white;
-    margin: 10px auto;
+    margin: 14px auto;
     border-radius: 10px;
     box-shadow: 16px 16px rgba(0, 0, 0, 0.46);
 }
@@ -17,6 +21,7 @@
 }
 
 .gif-galaxy{
+    position:static;
     margin-top: 10px;
     width: 100%;
     height: 15px;
@@ -24,6 +29,7 @@
 }
 .alinhamento02{
     margin-left: 20px;
+    
 
 }
 .alinhamento02 ul{
@@ -31,6 +37,7 @@
 }
 
 .perfil{
+    margin-top: 3px;
     background-image: url(../img/draken.jpg);
     background-position-x: center;
     background-position-y: center;
@@ -47,4 +54,13 @@ h1, h2, h4, h5{
 }
 .data{
     color: green
+}
+.cincoestrela{
+
+    width: 150px;
+    height: 50px;
+    background-image: url(/img/estrelasfundon.pn)
+}
+main{
+    margin-top: 40px;
 }

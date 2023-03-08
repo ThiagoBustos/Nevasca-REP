@@ -15,12 +15,13 @@ html,body{
 }
 .alinhamento{
     float: right;
-    margin-top: 20px;
+    margin-top: 9px;
+    height: 100px;
 
 }
 /*Alinhamentos*/
 .inicio, .promocao, .fale-conosco, .historia, .desenvolvimento{
-	box-shadow: 12px 5px rgba(0, 0, 0, 0.6);
+	box-shadow: 10px 5px rgba(0, 0, 0, 0.2);
 	border: solid 1px #D8BFD8;
     background-color: aliceblue;
     padding: 12px 12px;
@@ -28,7 +29,14 @@ html,body{
     text-decoration: none;
 	font-size: 18px;
 	font-family: arial;
-    color: #e19ae1;
+    color: #F4A460;
+    float: left;
+    margin-bottom: 100px;
+}
+@media screen and(max-width: 1000px){
+    .inicio, .promocao, .fale-conosco, .historia, .desenvolvimento{
+        display: block;
+    }
 }
 
 /*Final dos alinhamentos*/
@@ -42,7 +50,7 @@ html,body{
     border: 1px solid gray;
 }
 .pesquisar input{
-    display: inline-block;
+    display: block;
     position: absolute;
     margin-top: 15px;
     margin-left: 9px;
@@ -58,10 +66,7 @@ html,body{
 }
 .pesquisar input:hover{
     transition-delay: 50ms;
-    width: 450px;
-    margin-left: 10px;
-    outline: none;
-    padding-left: 25px;
+    background: #DCDCDC;
 }
 .mydrugs-introduction{
     text-align: center;
@@ -96,12 +101,13 @@ html,body{
 .Adcadastro{
     margin-top: 10px;
     border: solid 3px rgba(53, 52, 52, 0.5);
-    width: 600px;
+    width: 75%;
     height: 350px;
     display: inline-block;
-    background-color: #836FFF;	
+    background-image: linear-gradient(to right, #2c006f , #9983b9);
 }
 .inputEmail{
+    font-weight: bolder;
     margin-top: 30px;
     padding: 1px 13px;
     width: 300px;
@@ -113,6 +119,7 @@ html,body{
     border-radius: 10px 10px;
 }
 .inputSenha{
+    font-weight: bolder;
     padding: 1px 13px;
     width: 300px;
     height: 40px;
@@ -133,21 +140,25 @@ h3{
     text-shadow: black;
     -webkit-text-stroke: 1px black;
 }
+.link{
+    margin-top: 10px;
+}
 a[href="./esqueci.html"]{
     color: white;
 }
 .inputSubmit{
+    border: solid 2px #555555;
     margin-top: 15px;
     width: 250px;
     height: 45px;
-    background-color: #483D8B;
+    background-color: #1100ba;
     font-size: 22px;
     font-family: arial;
     font-weight: bolder;
     color: white;
 }
 .inputSubmit:hover{
-    background-color: #191970;	
+    background-color: #0b0074;	
 }
 footer{
     color: red;
@@ -198,18 +209,33 @@ footer{
 	/*PARTE DE ANIMAÇÕES DO SITE*/
 
 .inicio:hover{
+    transition-delay: 56ms;
 	padding: 14px 14px;
+    background-color: #DCDCDC;
+    font-weight: bolder;
 }
 .promocao:hover{
+    transition-delay: 50ms;
 	padding: 14px 14px;
+    background-color: #DCDCDC;
+    font-weight: bolder;
 }
 .fale-conosco:hover{
+    transition-delay: 50ms;
 	padding: 14px 14px;
+    background-color: #DCDCDC;
+    font-weight: bolder;
 }
 .historia:hover{
+    transition-delay: 50ms;
 	padding: 14px 14px;
+    background-color: #DCDCDC;
+    font-weight: bolder;
 }
 .desenvolvimento:hover{
+    transition-delay: 50ms;
 	padding: 14px 14px;
+    background-color: #DCDCDC;
+    font-weight: bolder;
 }
 
